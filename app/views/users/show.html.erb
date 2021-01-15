@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> <%= @user.first_name %>  <%= @user.last_name %> </h5>
+    <p class="card-text">  <strong>Email:</strong>
+    <%= @user.email %></p>
+
+    <p>
+  <strong>Phone:</strong>
+  <%= @user.phone %>
+</p >
+
+<p class="card-text">
+  <strong>Twitter:</strong>
+  <%= @user.twitter %>
+</p>
+
+   
+<%= link_to 'Edit', edit_user_path(@user), class:"btn btn-primary" %> 
+<%= link_to 'Back', users_path, class:"btn btn-secondary" %>
+  </div>
+</div>
+
+
+
+
+
+
