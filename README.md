@@ -1,9 +1,12 @@
 # Domerails
+<<<<<<< HEAD
 
 - ...
 - https://rubygems.org/ to use and install gems and use `bundle install` after adding into gemfile\
 
 `rails new Domerails` first command\
+=======
+>>>>>>> ed954ae237fa8dddb620ab028aff7d5a15c8a7de
 `rails s` to start puma server\
 `rails g controller home index` to make boiler plate in which we get controller,view,router\
 `rails routes` to show all routes\
